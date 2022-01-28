@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.filament:filament-android:1.4.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/game/android-endless-running-game/caches/transforms-3/2d8ed486c2eaee588ba37ee9a2fb8b3b/transformed/jetified-filament-android-1.4.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Desktop/game/android-endless-running-game/caches/transforms-3/2d8ed486c2eaee588ba37ee9a2fb8b3b/transformed/jetified-filament-android-1.4.5/res" />
+      <root url="file://$USER_HOME$/Desktop/game/android-endless-running-game/caches/transforms-3/2d8ed486c2eaee588ba37ee9a2fb8b3b/transformed/jetified-filament-android-1.4.5/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Desktop/game/android-endless-running-game/caches/modules-2/files-2.1/com.google.android.filament/filament-android/1.4.5/27bd7acd609061ea2a54d54edf7a02220582eef3/filament-android-1.4.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Desktop/game/android-endless-running-game/caches/modules-2/files-2.1/com.google.android.filament/filament-android/1.4.5/6d2275e3a93b818cbbb5cb8a370e308c31a3bd4e/filament-android-1.4.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

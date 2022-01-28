@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyLab.iml" filepath="$PROJECT_DIR$/.idea/modules/MyLab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MyLab.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MyLab.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sceneformsrc/sceneform/MyLab.sceneform.iml" filepath="$PROJECT_DIR$/.idea/modules/sceneformsrc/sceneform/MyLab.sceneform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sceneformux/ux/MyLab.sceneformux.iml" filepath="$PROJECT_DIR$/.idea/modules/sceneformux/ux/MyLab.sceneformux.iml" />
+    </modules>
+  </component>
+</project>

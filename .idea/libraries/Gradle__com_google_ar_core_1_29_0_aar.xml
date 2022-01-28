@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.ar:core:1.29.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/game/android-endless-running-game/caches/transforms-3/37a643a04dac0ee25b6c970413cb6f55/transformed/jetified-core-1.29.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Desktop/game/android-endless-running-game/caches/transforms-3/37a643a04dac0ee25b6c970413cb6f55/transformed/jetified-core-1.29.0/res" />
+      <root url="file://$USER_HOME$/Desktop/game/android-endless-running-game/caches/transforms-3/37a643a04dac0ee25b6c970413cb6f55/transformed/jetified-core-1.29.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Desktop/game/android-endless-running-game/caches/modules-2/files-2.1/com.google.ar/core/1.29.0/cd6edc55b48745db2f70b679601e766f290e49b2/core-1.29.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

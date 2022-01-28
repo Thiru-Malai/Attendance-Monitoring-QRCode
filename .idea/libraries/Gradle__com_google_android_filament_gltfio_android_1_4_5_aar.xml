@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.filament:gltfio-android:1.4.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/game/android-endless-running-game/caches/transforms-3/fa58a9f68932616679f89fc22370ef00/transformed/jetified-gltfio-android-1.4.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Desktop/game/android-endless-running-game/caches/transforms-3/fa58a9f68932616679f89fc22370ef00/transformed/jetified-gltfio-android-1.4.5/res" />
+      <root url="file://$USER_HOME$/Desktop/game/android-endless-running-game/caches/transforms-3/fa58a9f68932616679f89fc22370ef00/transformed/jetified-gltfio-android-1.4.5/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Desktop/game/android-endless-running-game/caches/modules-2/files-2.1/com.google.android.filament/gltfio-android/1.4.5/e8b13371990dd08a26241b3a9c805ed3dc6e2bdc/gltfio-android-1.4.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Desktop/game/android-endless-running-game/caches/modules-2/files-2.1/com.google.android.filament/gltfio-android/1.4.5/f1e3bea428e92958b860ff362dc371d930fc4c09/gltfio-android-1.4.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

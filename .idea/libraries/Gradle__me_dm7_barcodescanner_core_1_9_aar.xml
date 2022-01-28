@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: me.dm7.barcodescanner:core:1.9@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/game/android-endless-running-game/caches/transforms-3/e6be7e157e661d50ab917a8a5056cdc2/transformed/jetified-core-1.9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Desktop/game/android-endless-running-game/caches/transforms-3/e6be7e157e661d50ab917a8a5056cdc2/transformed/jetified-core-1.9/res" />
+      <root url="file://$USER_HOME$/Desktop/game/android-endless-running-game/caches/transforms-3/e6be7e157e661d50ab917a8a5056cdc2/transformed/jetified-core-1.9/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/Desktop/game/android-endless-running-game/caches/transforms-3/de2844e08ce5f03d14add736f34aa7eb/transformed/jetified-core-1.9/res" />
+      <root url="file://$USER_HOME$/Desktop/game/android-endless-running-game/caches/transforms-3/de2844e08ce5f03d14add736f34aa7eb/transformed/jetified-core-1.9/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/Desktop/game/android-endless-running-game/caches/transforms-3/de2844e08ce5f03d14add736f34aa7eb/transformed/jetified-core-1.9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Desktop/game/android-endless-running-game/caches/transforms-3/01b9f5c12b5a6ea859269accbac4c48b/transformed/jetified-core-1.9/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/Desktop/game/android-endless-running-game/caches/transforms-3/01b9f5c12b5a6ea859269accbac4c48b/transformed/jetified-core-1.9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Desktop/game/android-endless-running-game/caches/transforms-3/01b9f5c12b5a6ea859269accbac4c48b/transformed/jetified-core-1.9/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

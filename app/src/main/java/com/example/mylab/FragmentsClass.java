@@ -1,0 +1,103 @@
+package com.example.mylab;
+
+import android.Manifest;
+import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.os.Bundle;
+import android.view.View;
+import android.view.Menu;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.google.android.material.snackbar.Snackbar;
+import com.google.android.material.navigation.NavigationView;
+
+import androidx.core.app.ActivityCompat;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
+import androidx.navigation.ui.AppBarConfiguration;
+import androidx.navigation.ui.NavigationUI;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.appcompat.app.AppCompatActivity;
+import com.example.mylab.LoginActivity;
+import com.example.mylab.databinding.ActivityMainBinding;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+
+public class FragmentsClass extends AppCompatActivity {
+    private AppBarConfiguration mAppBarConfiguration;
+    private ActivityMainBinding binding;
+    private String filename = "demoFile.txt";
+    String val = null;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+
+        super.onCreate(savedInstanceState);
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+
+        setSupportActionBar(binding.appBarMain.toolbar);
+        binding.appBarMain.fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                readData(view);
+            }
+        });
+        DrawerLayout drawer = binding.drawerLayout;
+        NavigationView navigationView = binding.navView;
+        // Passing each menu ID as a set of Ids because each
+        // menu should be considered as top level destinations.
+        mAppBarConfiguration = new AppBarConfiguration.Builder(
+                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow)
+                .setOpenableLayout(drawer)
+                .build();
+        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
+        NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
+        NavigationUI.setupWithNavController(navigationView, navController);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
+        return NavigationUI.navigateUp(navController, mAppBarConfiguration)
+                || super.onSupportNavigateUp();
+    }
+    private void readData(View view)
+    {
+
+        try
+        {
+            FileInputStream fin = openFileInput(filename);
+            int a;
+            StringBuilder temp = new StringBuilder();
+            while ((a = fin.read()) != -1)
+            {
+                temp.append((char)a);
+            }
+
+            // setting text from the file.
+            val = temp.toString();
+            Snackbar.make(view, val, Snackbar.LENGTH_LONG)
+                    .setAction("Action", null).show();
+           // Toast.makeText(getApplicationContext(),temp.toString(),Toast.LENGTH_SHORT).show();
+            fin.close();
+            //Intent intent1 = new Intent(FragmentsClass.this,UserActivity.class);
+            //startActivity(intent1);
+        }
+        catch (IOException e)
+        {
+            e.printStackTrace();
+        }
+        //Toast.makeText(getApplicationContext(),"reading to file " + filename + " completed..",Toast.LENGTH_SHORT).show();
+    }
+
+}
+

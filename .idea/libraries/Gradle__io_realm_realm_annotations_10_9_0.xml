@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: io.realm:realm-annotations:10.9.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/game/android-endless-running-game/caches/modules-2/files-2.1/io.realm/realm-annotations/10.9.0/d90e2aea076803d2fac8f72205fb1c55f1e6e3ee/realm-annotations-10.9.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Desktop/game/android-endless-running-game/caches/modules-2/files-2.1/io.realm/realm-annotations/10.9.0/d8ccfaafa5d95fa21b58a1564fe5958890c774dc/realm-annotations-10.9.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Desktop/game/android-endless-running-game/caches/modules-2/files-2.1/io.realm/realm-annotations/10.9.0/1c83132ba98842e370eb74035ec0d22f9018d4a2/realm-annotations-10.9.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
